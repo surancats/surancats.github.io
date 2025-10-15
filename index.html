@@ -122,20 +122,20 @@
   <script>
     document.getElementById('printBtn').addEventListener('click', ()=>window.print());
     document.getElementById('toggleTheme').addEventListener('click', ()=>{
-      if(document.documentElement.style.getPropertyValue('--bg') === '#f7f7fb'){
-        document.documentElement.style.setProperty('--bg','#0b1220');
+      if(document.documentElement.style.getPropertyValue('--bg') === '#ffffff'){
+        document.documentElement.style.setProperty('--bg','#ffffff');
         document.documentElement.style.setProperty('--card','#071024');
         document.documentElement.style.setProperty('--text','#e6eef8');
         document.documentElement.style.setProperty('--muted','#9fb0c8');
         document.documentElement.style.setProperty('--accent','#ff9aa2');
-        document.body.style.background='linear-gradient(180deg,#071024 0%, #071022 100%)';
+        document.body.style.background='linear-gradient(180deg,#ffffff 0%, #071022 100%)';
       } else {
-        document.documentElement.style.setProperty('--bg','#f7f7fb');
+        document.documentElement.style.setProperty('--bg','#ffffff');
         document.documentElement.style.setProperty('--card','#ffffff');
         document.documentElement.style.setProperty('--text','#1f2937');
         document.documentElement.style.setProperty('--muted','#6b7280');
         document.documentElement.style.setProperty('--accent','#ff6b6b');
-        document.body.style.background='linear-gradient(180deg,#eef2ff 0%,var(--bg) 100%)';
+        document.body.style.background='linear-gradient(180deg,#ffffff 0%,var(--bg) 100%)';
       }
     });
   </script>
